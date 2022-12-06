@@ -1,9 +1,6 @@
 # Change Log
 
-All notable changes to the "open-by-cmd" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## 2022/12/06
 
 - Initial release
