@@ -6,20 +6,29 @@
   "engines": {
     "vscode": "^1.73.0"
   },
+  "publisher": "ichir0roie",
+  "license": "The Unlicense",
   "categories": [
     "Other"
   ],
   "activationEvents": [
-    "onCommand:open-by-cmd.helloWorld"
+    "onCommand:open-by-cmd.openByCmd"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "open-by-cmd.helloWorld",
-        "title": "Hello World"
+        "command": "open-by-cmd.openByCmd",
+        "title": "Open By Cmd"
       }
-    ]
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "open-by-cmd.openByCmd"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
